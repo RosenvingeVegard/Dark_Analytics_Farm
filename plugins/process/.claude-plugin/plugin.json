@@ -1,0 +1,8 @@
+{
+  "name": "process",
+  "description": "Reusable human-in-the-loop development process for Power BI / Fabric work: plan, branch, hook-validate, screenshot-review, PR review, staged deploy. Client-agnostic.",
+  "version": "0.6.0",
+  "author": {
+    "name": "Replace with your name or team"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_readme": "GENERIC STARTING DEFAULTS, NOT NORTURA'S ACTUAL STANDARD. These are common star-schema conventions used as a placeholder so the skill has something concrete to point at. Replace every field below once Nortura's real naming/documentation standard is confirmed - see the skill's 'What needs real input' section.",
+  "tables": {
+    "dimension_prefix": "Dim",
+    "fact_prefix": "Fact",
+    "casing": "PascalCase",
+    "example": "DimProduct, FactSalesOrder"
+  },
+  "measures": {
+    "casing": "Title Case with spaces",
+    "prefix": "none",
+    "required_display_folders": ["Base Measures", "Time Intelligence", "KPIs"],
+    "example": "Total Sales, Total Sales YTD"
+  },
+  "columns": {
+    "hide_foreign_keys": true,
+    "hide_technical_columns": true,
+    "example_technical_columns": ["RowInsertedDate", "SourceSystemId"]
+  },
+  "documentation": {
+    "description_required_on": ["measures", "calculated_columns", "calculated_tables"],
+    "note": "Presence of a description is already enforced by the pbi-desktop plugin's measure-metadata hook in the community marketplace. This file is about content standards (what a good description says), not presence."
+  },
+  "relationships": {
+    "default_filter_direction": "single",
+    "bidirectional_requires_documented_exception": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_readme": "One entry per semantic model/dataset. 'classification' must be one of: not_sensitive, sensitive_business, personal, sensitive_personal. Unlisted datasets fall back to default_classification. Delete the example entry once real entries are added.",
+  "default_classification": "sensitive_personal",
+  "datasets": [
+    {
+      "workspace_id": "00000000-0000-0000-0000-000000000000",
+      "dataset_name": "EXAMPLE - replace with a real dataset name",
+      "classification": "sensitive_personal",
+      "notes": "Delete this entry once the classification audit is done."
+    }
+  ]
+}

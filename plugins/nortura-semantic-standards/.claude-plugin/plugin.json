@@ -1,0 +1,8 @@
+{
+  "name": "nortura-semantic-standards",
+  "description": "Nortura-specific semantic model conventions: naming, DisplayFolder/description standards, and house Best Practice Analyzer rules. Placeholder content pending Nortura's actual standards — see the skill for what's generic default vs. what needs real input.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Replace with your name or team"
+  }
+}

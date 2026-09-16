@@ -1,0 +1,63 @@
+{
+  "name": "nortura-power-bi-agentic",
+  "owner": {
+    "name": "Replace with your name or team",
+    "email": "replace-me@example.com"
+  },
+  "description": "Layered Power BI / Fabric agentic development stack. Layer 1 (harness, process) is client-agnostic and reusable across engagements. Layer 2 (nortura-design) is Nortura-specific. Depends on the community power-bi-agentic-development marketplace for underlying PBIP/DAX/Fabric technical skills.",
+  "version": "0.7.0",
+  "plugins": [
+    {
+      "name": "harness",
+      "source": "./plugins/harness",
+      "description": "Reusable safety harness: data-classification and workspace-tier policy engine, PBI/Fabric routing table, and enforcement hooks. Client-agnostic \u2014 reads its registry from the target project's .claude-governance/ folder, not from this plugin.",
+      "category": "governance",
+      "keywords": [
+        "harness",
+        "governance",
+        "permissions",
+        "data-classification",
+        "power-bi",
+        "fabric"
+      ]
+    },
+    {
+      "name": "process",
+      "source": "./plugins/process",
+      "description": "Reusable human-in-the-loop development process for Power BI / Fabric work: plan, branch, hook-validate, screenshot-review, PR review, staged deploy. Client-agnostic.",
+      "category": "process",
+      "keywords": [
+        "process",
+        "workflow",
+        "human-in-the-loop",
+        "power-bi",
+        "fabric"
+      ]
+    },
+    {
+      "name": "nortura-design",
+      "source": "./plugins/nortura-design",
+      "description": "Nortura-specific Power BI report design system: approved layouts, theme, backgrounds, and visual placement rules.",
+      "category": "design",
+      "keywords": [
+        "nortura",
+        "design",
+        "power-bi",
+        "report"
+      ]
+    },
+    {
+      "name": "nortura-semantic-standards",
+      "source": "./plugins/nortura-semantic-standards",
+      "description": "Nortura-specific semantic model conventions: naming, documentation, and house Best Practice Analyzer rules. Contains generic placeholder defaults pending Nortura's confirmed standard.",
+      "category": "design",
+      "keywords": [
+        "nortura",
+        "semantic-model",
+        "naming",
+        "bpa",
+        "power-bi"
+      ]
+    }
+  ]
+}

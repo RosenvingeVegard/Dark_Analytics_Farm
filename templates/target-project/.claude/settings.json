@@ -1,0 +1,35 @@
+{
+  "extraKnownMarketplaces": {
+    "power-bi-agentic-development": {
+      "source": {
+        "source": "github",
+        "repo": "data-goblin/power-bi-agentic-development",
+        "ref": "26.25"
+      }
+    },
+    "nortura-power-bi-agentic": {
+      "source": {
+        "source": "github",
+        "repo": "REPLACE-WITH-YOUR-ORG/nortura-power-bi-agentic"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "harness@nortura-power-bi-agentic": true,
+    "process@nortura-power-bi-agentic": true,
+    "nortura-design@nortura-power-bi-agentic": true,
+    "nortura-semantic-standards@nortura-power-bi-agentic": true,
+    "pbip@power-bi-agentic-development": true,
+    "pbi-desktop@power-bi-agentic-development": true,
+    "semantic-models@power-bi-agentic-development": true,
+    "reports@power-bi-agentic-development": true,
+    "fabric-cli@power-bi-agentic-development": true,
+    "tabular-editor@power-bi-agentic-development": true
+  },
+  "permissions": {
+    "deny": [
+      "Bash(fab * admin *)",
+      "Bash(fab * tenant-setting *)"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "harness",
+  "description": "Data-classification and workspace-tier policy engine, PBI/Fabric routing table, and enforcement hooks. Client-agnostic \u2014 reads its registry from the target project's .claude-governance/ folder.",
+  "version": "0.5.0",
+  "author": {
+    "name": "Replace with your name or team"
+  }
+}

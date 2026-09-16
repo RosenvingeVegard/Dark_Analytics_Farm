@@ -1,0 +1,12 @@
+{
+  "_readme": "One entry per Fabric/Power BI workspace this project can reach. 'tier' must be one of: dev, test, prod, single_unseparated. Unlisted workspaces fall back to default_tier. Delete the example entry once real entries are added.",
+  "default_tier": "single_unseparated",
+  "workspaces": [
+    {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "name": "EXAMPLE - replace with a real workspace",
+      "tier": "single_unseparated",
+      "notes": "Delete this entry once the environment audit is done."
+    }
+  ]
+}
